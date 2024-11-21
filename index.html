@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+      integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Step Progress Bar</title>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li>
+          <i class="active fa-regular fa-circle-check"></i>
+          <span class="fill"></span>
+          <span class="num active">Start</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-xmark"></i> <span class="fill"></span>
+          <span class="num">Step 1</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-xmark"></i> <span class="fill"></span>
+          <span class="num">Step 2</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-xmark"></i> <span class="fill"></span>
+          <span class="num">Step 3</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-xmark"></i>
+          <span class="num">Step 4</span>
+        </li>
+      </ul>
+    </div>
+    <div class="cursorRightLeft">
+      <i class="arrow fa-solid fa-arrow-left left"></i>
+      <i class="arrow fa-solid fa-arrow-right right"></i>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
